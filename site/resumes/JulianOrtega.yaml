@@ -1,0 +1,129 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julian
+    last_name: Dos
+    
+    # Define yourself in 4-5 words
+    motto: Ingeniero electrónico y desarrollador web
+    
+    # Focus
+    focus: Desarrollo web y sistemas embebidos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero electrónico bilingüe en español e inglés (B2-C1), con experiencia en desarrollo web (Front End y Back End), manejo de lenguajes como JavaScript, PHP, Python, CSS, y frameworks como React y Angular. Experiencia en tecnologías fotovoltaicas, matemáticas, física, y programación de aplicaciones embebidas usando microcontroladores y PLC. Capacitado para resolver problemas tecnológicos, creativo, motivado por aprender y comprometido con el desarrollo de la empresa y la región.
+    
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: 95juliandos@gmail.com
+    phone: (+57) 3117857025
+    website: https://github.com/Juliandos
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Juliandos
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Desarrollo de software
+      - item: Tecnologías fotovoltaicas
+      - item: Programación de sistemas embebidos
+
+# Your previous education
+education:
+    - degree: Ingeniero Electrónico
+      university: Universidad del Cauca
+      time: 2010 - 2016
+      details: |
+        Formación en ingeniería electrónica con enfoque en sistemas embebidos, control industrial y desarrollo de software.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Desarrollador Web
+      time: 2023 - 2024
+      company: Grandtek – Software
+      details: |
+        Captura de requerimientos, modelamiento de la información, análisis de requerimientos, diseño del software, implementación del software, pruebas del software, puesta en servicio, gestión de configuración, soporte técnico a clientes, gestión de cambios, y en general, actividades de desarrollo de software.
+
+    - role: Agente bilingüe - Uber
+      time: 2022 - 2023
+      company: Teleperformance – Call Center
+      details: |
+        Atender llamadas entrantes y salientes, solicitar información relevante para resolver problemas de los clientes, manejo de quejas, hacer follow-up a solicitudes, entre otras.
+
+    - role: Instalación y mantenimiento de SSFV
+      time: 2020
+      company: Ecolombia Solar – Solar Fotovoltaica
+      details: |
+        Llevar a cabo instalaciones de sistemas solares fotovoltaicos residenciales y comerciales hasta 22 Kw.
+
+    - role: Asesor comercial
+      time: 2019
+      company: Ventas Hamilton Ortega – Inmobiliaria
+      details: |
+        Asesorar a los futuros compradores de proyectos inmobiliarios para brindarles la información necesaria, registro, control y administración de todos los procesos.
+
+    - role: Analista Externo
+      time: 2021 - 2022
+      company: PIL PERU
+      details: |
+        Proponer cotizaciones de tableros eléctricos, sistemas de control, transformadores, protecciones, etc.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí puedes listar tus proyectos personales o de código abierto. Estos proyectos reflejan mi experiencia en desarrollo web y sistemas embebidos.
+
+    assignments:
+      - title: Desarrollo de software
+        link: "#"
+        tagline: "Desarrollo de aplicaciones web y sistemas embebidos."
+
+      - title: Instalaciones fotovoltaicas
+        link: "#"
+        tagline: "Diseño e instalación de sistemas solares fotovoltaicos residenciales y comerciales."
+
+# Skills
+skills:
+    toolset:
+      - name: JavaScript & React
+        level: 90%
+
+      - name: PHP & Python
+        level: 85%
+
+      - name: CSS & HTML5
+        level: 95%
+
+      - name: Sistemas embebidos
+        level: 80%
+
+      - name: Controladores industriales (PLC)
+        level: 75%
+
+      - name: Tecnologías fotovoltaicas
+        level: 70%
